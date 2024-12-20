@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightning McQueen Quotes & More</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff4f4f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .quote-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .quote-item {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 2em;
+            color: #ff4f4f;
+        }
+
+        .quote-author {
+            font-style: italic;
+            color: #555;
+        }
+
+        .image-section img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Lightning McQueen Quotes & Fun!</h1>
+        <p>Enjoy quotes, fun ideas, and skibidi toilet madness!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="lightning-mcqueen.html">Lightning McQueen Quotes</a>
+        <a href="ninja-fade.html">Ninja's Low Taper Fade</a>
+        <a href="skibidi-toilet.html">Skibidi Toilet Characters</a>
+    </nav>
+
+    <section id="home">
+        <h2 class="section-title">Welcome to the Lightning McQueen Universe!</h2>
+        <p>Here, we explore some of the best Lightning McQueen quotes, imagine how Ninja would look with a low taper fade, and dive into the strange world of Skibidi Toilet characters!</p>
+    </section>
+
+    <!-- Lightning McQueen Quotes Page -->
+    <section id="lightning-mcqueen">
+        <h2 class="section-title">Lightning McQueen Quotes</h2>
+        <ul class="quote-list">
+            <li class="quote-item">
+                "I am speed!" - Lightning McQueen
+            </li>
+            <li class="quote-item">
+                "Ka-chow!" - Lightning McQueen
+            </li>
+            <li class="quote-item">
+                "It's not about how fast you go. It's about how you go fast." - Lightning McQueen
+            </li>
+            <!-- Add more quotes here -->
+        </ul>
+    </section>
+
+    <!-- Ninja Low Taper Fade Page -->
+    <section id="ninja-fade">
+        <h2 class="section-title">Imagine Ninja with a Low Taper Fade</h2>
+        <p>If Ninja, the famous gamer and streamer, got a low taper fade, we can only imagine the fresh look he'd bring to his streams! Would his gaming skills level up? Would his hairline be as sharp as his reflexes?</p>
+        <div class="image-section">
+            <img src="ninja-low-taper.jpg" alt="Ninja with a low taper fade">
+        </div>
+    </section>
+
+    <!-- Skibidi Toilet Characters Page -->
+    <section id="skibidi-toilet">
+        <h2 class="section-title">Skibidi Toilet Characters</h2>
+        <p>Skibidi Toilet has taken the internet by storm, with bizarre characters and unexpected humor! Let’s take a look at some of the iconic figures from this strange world.</p>
+        <ul>
+            <li><strong>Skibidi Toilet Man:</strong> The heroic toilet-riding figure who can’t stop singing!</li>
+            <li><strong>Flushinator:</strong> The antagonist who always tries to ruin the fun with his plungers of doom!</li>
+            <li><strong>Plumber Pete:</strong> A heroic plumber who battles to keep the toilets clean and flowing!</li>
+            <!-- Add more characters here -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lightning McQueen Fansite | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
